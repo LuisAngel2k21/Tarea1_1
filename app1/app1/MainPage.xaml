@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="app1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="0" CornerRadius="0">
+            <Label Text="**PM2**" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Ingrese el primer numero:" FontSize="Title" Padding="0,0,0,0"/>
+        <Entry x:Name="nombre" Placeholder="numero 1" Keyboard="Numeric" />
+
+        <Label Text="Ingrese el numero 2:" FontSize="Title" Padding="0,0,0,0"/>
+        <Entry x:Name="Telefono" Placeholder="numero2" Keyboard="Numeric" />
+
+
+        <Button  Text="Suma" x:Name="btnsegunda" Clicked="btnsegunda_Clicked" ></Button>
+        <Button  Text="resta" x:Name="btnsegunda2" Clicked="btnsegunda_Clicked2" ></Button>
+        <Button  Text="multiplicacion" x:Name="btnsegunda3" Clicked="btnsegunda_Clicked3" ></Button>
+        <Button  Text="division" x:Name="btnsegunda4" Clicked="btnsegunda_Clicked4" ></Button>
+      
+    </StackLayout>
+
+</ContentPage>
